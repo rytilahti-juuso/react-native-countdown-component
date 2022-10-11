@@ -43,7 +43,7 @@ class CountDown extends React.Component {
     until: Math.max(this.props.until, 0),
     lastUntil: null,
     wentBackgroundAt: null,
-    appStateSubscription: null
+    appStateSubscription: null,
     isStartedCountDown: false,
   };
 
